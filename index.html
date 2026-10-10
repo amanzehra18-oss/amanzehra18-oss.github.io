@@ -1,0 +1,125 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Aman Zehra | Bioinformatics</title>
+<meta name="description" content="Aman Zehra, MSc Biotechnology (Jamia Hamdard). Bioinformatics, microbiome analysis and machine learning.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+<style>
+:root{--bg:#07141f;--bg2:#0b2230;--card:#0d2a3a;--line:#17445a;--text:#e8f1f5;--mut:#9db4c0;--acc:#40e0d0;--acc2:#78aaff}
+*{box-sizing:border-box;margin:0;padding:0}
+html{scroll-behavior:smooth}
+body{font-family:Poppins,system-ui,sans-serif;background:var(--bg);color:var(--text);line-height:1.65}
+a{color:var(--acc);text-decoration:none}
+a:hover{text-decoration:underline}
+.wrap{max-width:980px;margin:0 auto;padding:0 20px}
+header{position:sticky;top:0;background:rgba(7,20,31,.92);backdrop-filter:blur(8px);border-bottom:1px solid var(--line);z-index:5}
+nav{display:flex;justify-content:space-between;align-items:center;height:60px}
+nav b{font-weight:600}
+nav ul{display:flex;gap:22px;list-style:none;font-size:14px}
+nav ul a{color:var(--mut)}
+nav ul a:hover{color:var(--acc);text-decoration:none}
+.hero{padding:90px 0 70px;background:radial-gradient(900px 400px at 85% 30%,rgba(64,224,208,.13),transparent),linear-gradient(160deg,var(--bg),var(--bg2))}
+.hero small{color:var(--acc);letter-spacing:.15em;font-size:13px;font-weight:500}
+.hero h1{font-size:clamp(34px,6vw,58px);line-height:1.1;margin:10px 0 6px}
+.hero h2{font-weight:500;font-size:clamp(17px,2.4vw,22px);color:var(--acc2);margin-bottom:18px}
+.hero p{max-width:640px;color:var(--mut)}
+.btns{margin-top:26px;display:flex;gap:12px;flex-wrap:wrap}
+.btn{padding:10px 20px;border-radius:8px;font-size:14px;font-weight:500;border:1px solid var(--acc);color:var(--acc)}
+.btn.p{background:var(--acc);color:#04202a}
+.btn:hover{text-decoration:none;opacity:.85}
+section{padding:60px 0}
+section h3{font-size:26px;margin-bottom:6px}
+.bar{width:60px;height:3px;background:var(--acc);margin-bottom:28px;border-radius:2px}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:18px}
+.card{background:var(--card);border:1px solid var(--line);border-radius:12px;padding:22px}
+.card h4{font-size:17px;margin-bottom:4px}
+.tag{display:inline-block;font-size:11.5px;color:var(--acc);border:1px solid var(--line);border-radius:20px;padding:2px 10px;margin:8px 6px 0 0}
+.card p{color:var(--mut);font-size:14.5px;margin-top:8px}
+.meta{font-size:13px;color:var(--acc2)}
+table{width:100%;border-collapse:collapse;margin-top:12px;font-size:13.5px}
+th,td{text-align:left;padding:6px 8px;border-bottom:1px solid var(--line)}
+th{color:var(--mut);font-weight:500}
+.tl{border-left:2px solid var(--line);padding-left:22px}
+.tl .it{position:relative;margin-bottom:26px}
+.tl .it:before{content:"";position:absolute;left:-29px;top:6px;width:12px;height:12px;border-radius:50%;background:var(--acc)}
+.tl h4{font-size:16.5px}
+.skills .card h4{margin-bottom:8px}
+footer{border-top:1px solid var(--line);padding:30px 0;text-align:center;color:var(--mut);font-size:13px}
+@media(max-width:620px){nav ul{gap:12px;font-size:12.5px}.hero{padding:60px 0 50px}}
+</style>
+</head>
+<body>
+<header><div class="wrap"><nav><b>Aman Zehra</b>
+<ul><li><a href="#about">About</a></li><li><a href="#projects">Projects</a></li><li><a href="#experience">Experience</a></li><li><a href="#skills">Skills</a></li><li><a href="#contact">Contact</a></li></ul></nav></div></header>
+
+<div class="hero"><div class="wrap">
+<small>BIOINFORMATICS &nbsp;•&nbsp; MICROBIOME &nbsp;•&nbsp; AI/ML</small>
+<h1>Aman Zehra</h1>
+<h2>MSc Biotechnology, Jamia Hamdard</h2>
+<p>I turn biological data into insight. My work covers 16S rRNA gut microbiome analysis, functional prediction and machine-learning classification of disease from microbial profiles.</p>
+<div class="btns"><a class="btn p" href="#projects">View projects</a><a class="btn" href="https://www.linkedin.com/in/amanzehra" target="_blank" rel="noopener">LinkedIn</a><a class="btn" href="https://github.com/amanzehra18-oss" target="_blank" rel="noopener">GitHub</a></div>
+</div></div>
+
+<section id="about"><div class="wrap">
+<h3>About</h3><div class="bar"></div>
+<p style="color:var(--mut);max-width:760px">I am a biotechnologist moving into bioinformatics. I completed my MSc in Biotechnology at Jamia Hamdard, where I worked on a plant tissue culture dissertation, and I now work on bioinformatics and machine-learning projects through Biotecnika Info Labs. I enjoy pairing biological questions with clean, reproducible analysis, from raw sequencing reads to interpretable results.</p>
+</div></section>
+
+<section id="projects" style="background:var(--bg2)"><div class="wrap">
+<h3>Projects</h3><div class="bar"></div>
+<div class="grid">
+
+<div class="card"><h4>Gut microbiota in inflammatory bowel disease</h4>
+<div class="meta">16S rRNA amplicon analysis</div>
+<p>Analysis of gut microbial composition in IBD with functional prediction using PICRUSt2. Manuscript in preparation, written with mentor guidance (Biotecnika Info Labs).</p>
+<span class="tag">16S rRNA</span><span class="tag">PICRUSt2</span><span class="tag">Microbiome</span></div>
+
+<div class="card"><h4>ML classification of 10 autoimmune diseases</h4>
+<div class="meta">MCAI internship, Jamia Hamdard</div>
+<p>One unified model separating 11 classes (10 autoimmune conditions and healthy controls) from genus-level gut microbiome profiles. 1,955 samples, 423 genera, Optuna-tuned models.</p>
+<table><tr><th>Model</th><th>Acc.</th><th>F1</th><th>ROC-AUC</th></tr>
+<tr><td>XGBoost</td><td>0.629</td><td>0.600</td><td>0.871</td></tr>
+<tr><td>Soft Voting</td><td>0.605</td><td>0.565</td><td>0.873</td></tr></table>
+<span class="tag">Python</span><span class="tag">XGBoost</span><span class="tag">LightGBM</span><span class="tag">CatBoost</span><span class="tag">Optuna</span><br>
+<p><a href="https://github.com/amanzehra18-oss/MCAI_INTERN" target="_blank" rel="noopener">View on GitHub →</a></p></div>
+
+<div class="card"><h4>Plant tissue culture dissertation</h4>
+<div class="meta">MSc Biotechnology, Jamia Hamdard</div>
+<p>Six-month laboratory dissertation on plant tissue culture, giving me a wet-lab foundation for the data I now analyse.</p>
+<span class="tag">Tissue culture</span><span class="tag">Lab research</span></div>
+
+<div class="card"><h4>Crop biofortification by transgenic methods</h4>
+<div class="meta">MSc review article</div>
+<p>Review of transgenic approaches for improving the nutritional value of crops. In the publication process.</p>
+<span class="tag">Review</span><span class="tag">Plant biotechnology</span></div>
+
+</div></div></section>
+
+<section id="experience"><div class="wrap">
+<h3>Experience</h3><div class="bar"></div>
+<div class="tl">
+<div class="it"><h4>Bioinformatics Project Intern, Biotecnika Info Labs</h4><div class="meta">Present &nbsp;|&nbsp; Biotecnika Info Labs, Bangalore</div><p style="color:var(--mut);font-size:14.5px">Department of Bioinformatics, AI &amp; Machine Learning. Working on 16S rRNA microbiome analysis and manuscript preparation under Dr. Elamathi Natarajan.</p></div>
+<div class="it"><h4>AI Intern, MCAI, Jamia Hamdard</h4><div class="meta">2026 &nbsp;|&nbsp; New Delhi</div><p style="color:var(--mut);font-size:14.5px">Built and compared gradient-boosting and ensemble models for multi-class autoimmune disease classification; co-authored the project report.</p></div>
+<div class="it"><h4>MSc Biotechnology, Jamia Hamdard</h4><div class="meta">New Delhi</div><p style="color:var(--mut);font-size:14.5px">Dissertation in plant tissue culture.</p></div>
+</div></div></section>
+
+<section id="skills" class="skills" style="background:var(--bg2)"><div class="wrap">
+<h3>Skills</h3><div class="bar"></div>
+<div class="grid">
+<div class="card"><h4>Bioinformatics</h4><span class="tag">16S rRNA analysis</span><span class="tag">Microbiome</span><span class="tag">PICRUSt2</span><span class="tag">Taxonomic profiling</span></div>
+<div class="card"><h4>Machine learning</h4><span class="tag">scikit-learn</span><span class="tag">XGBoost</span><span class="tag">LightGBM</span><span class="tag">CatBoost</span><span class="tag">Optuna</span></div>
+<div class="card"><h4>Programming &amp; tools</h4><span class="tag">Python</span><span class="tag">pandas</span><span class="tag">Git &amp; GitHub</span></div>
+<div class="card"><h4>Lab &amp; research</h4><span class="tag">Plant tissue culture</span><span class="tag">Scientific writing</span></div>
+</div></div></section>
+
+<section id="contact"><div class="wrap">
+<h3>Contact</h3><div class="bar"></div>
+<p style="color:var(--mut)">Open to bioinformatics roles. Reach me through <a href="https://www.linkedin.com/in/amanzehra" target="_blank" rel="noopener">LinkedIn</a> or see my code on <a href="https://github.com/amanzehra18-oss" target="_blank" rel="noopener">GitHub</a>.</p>
+</div></section>
+
+<footer>© <span id="y"></span> Aman Zehra</footer>
+<script>document.getElementById('y').textContent=new Date().getFullYear()</script>
+</body></html>
